@@ -30,29 +30,39 @@ Maven:
 
 ### Use it in your code:
 
+With coordinates:
+
 ```java
-String text = latlng2dms.using(timeInMillis);
 final Double[] coordinates = {151.209900d, -33.865143d};
 final String converted = LatsLngs.with(coordinates).toDms();
 /* Will return 33°51'54" S, 151°12'35" E */
 ```
 
-##Spread the word
+Or with single longitude/latitude value:
+
+```java
+final Double value = -34.206841d;
+final String converted = LatsLngs.with(value).asLatitude().toDms();
+/* Will return 34°12'24 S */
+```
+
+
+## Spread the word
 
 If you like this library, please tell others about it :thumbsup::thumbsup:
 
-<a href="https://twitter.com/intent/tweet?text=Trying%20to%20show%20coordinates%20better%3F%20Check%20out%20this%20awesome%20library%20on%20Github%3A%20https://github.com/marlonlom/latlng2dms" target="_blank" title="share to twitter" style="width:100%"><img src="https://github.com/marlonlom/staticmaps_builder/blob/master/design/twitter_icon.png" title="Share on Twitter" width="35" height=35 />
+<a href="https://twitter.com/intent/tweet?text=Trying%20to%20show%20coordinates%20more%20friendly%3F%20Check%20out%20this%20awesome%20library%20on%20Github%3A%20https://github.com/marlonlom/latlng2dms" target="_blank" title="share to twitter" style="width:100%"><img src="https://github.com/marlonlom/staticmaps_builder/blob/master/design/twitter_icon.png" title="Share on Twitter" width="35" height=35 />
 <a href="https://plus.google.com/share?url=https://github.com/marlonlom/latlng2dms" target="_blank" title="share to G+" style="width:100%"><img src="https://github.com/marlonlom/staticmaps_builder/blob/master/design/googleplus_icon.png" target="_blank"  title="Share on Google+" width="35" height=35 />
 <a href="https://www.facebook.com/sharer/sharer.php?u=https://github.com/marlonlom/latlng2dms" target="_blank" title="share to facebook" style="width:100%"><img src="https://github.com/marlonlom/staticmaps_builder/blob/master/design/facebook_icon.png" title="Share on Facebook" width="35" height=35 />
 
- - []()Follow me on **Twitter**: [**@Marlonlom**](https://twitter.com/marlonlom)
+ - Follow me on **Twitter**: [**@Marlonlom**](https://twitter.com/marlonlom)
  - Contact me on **LinkedIn**: [**Marlonlom**](https://co.linkedin.com/in/marlonlom)
 
 
-###License
+### License
 
 ```
-Copyright 2016 marlonlom
+Copyright 2017 marlonlom
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
