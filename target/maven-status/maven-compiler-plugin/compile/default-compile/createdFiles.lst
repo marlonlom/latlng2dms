@@ -1,0 +1,8 @@
+com\github\marlonlom\helpers\coordinates\LatsLngs$Exception.class
+com\github\marlonlom\helpers\coordinates\LatsLngs$Builder.class
+com\github\marlonlom\helpers\coordinates\LatsLngs$IWithSingleValue.class
+com\github\marlonlom\helpers\coordinates\LatsLngs$1.class
+com\github\marlonlom\helpers\coordinates\Constants.class
+com\github\marlonlom\helpers\coordinates\LatsLngs$IWithValues.class
+com\github\marlonlom\helpers\coordinates\DecimalToDms.class
+com\github\marlonlom\helpers\coordinates\LatsLngs.class

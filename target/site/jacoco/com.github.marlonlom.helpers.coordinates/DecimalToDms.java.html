@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>DecimalToDms.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">latlng2dms</a> &gt; <a href="index.source.html" class="el_package">com.github.marlonlom.helpers.coordinates</a> &gt; <span class="el_source">DecimalToDms.java</span></div><h1>DecimalToDms.java</h1><pre class="source lang-java linenums">package com.github.marlonlom.helpers.coordinates;
+
+/**
+ * The Class DecimalToDms.
+ *
+ * @author Mjlopezm
+ */
+<span class="nc" id="L8">public final class DecimalToDms {</span>
+
+    /**
+     * Formats coordinate value in D°M′S″ format.
+     *
+     * @param coord coordinate in decimal format
+     * @return coordinate in D°M′S″ format
+     */
+    public static String format(final double coord) {
+
+<span class="fc" id="L18">        double coordinate = coord;</span>
+
+<span class="fc" id="L20">        double mod = coordinate % Constants.ONE;</span>
+<span class="fc" id="L21">        int intPart = (int) coordinate;</span>
+
+<span class="fc" id="L23">        final String degrees = String.valueOf(intPart);</span>
+
+<span class="fc" id="L25">        coordinate = mod * Constants.SIXTY;</span>
+<span class="fc" id="L26">        mod = coordinate % Constants.ONE;</span>
+<span class="fc" id="L27">        intPart = (int) coordinate;</span>
+<span class="fc bfc" id="L28" title="All 2 branches covered.">        if (intPart &lt; Constants.ZERO) {</span>
+<span class="fc" id="L29">            intPart *= Constants.ONE_NEGATIVE;</span>
+        }
+
+<span class="fc" id="L32">        final String minutes = String.valueOf(intPart);</span>
+
+<span class="fc" id="L34">        coordinate = mod * Constants.SIXTY;</span>
+<span class="fc" id="L35">        intPart = (int) coordinate;</span>
+<span class="fc bfc" id="L36" title="All 2 branches covered.">        if (intPart &lt; Constants.ZERO) {</span>
+<span class="fc" id="L37">            intPart *= Constants.ONE_NEGATIVE;</span>
+        }
+
+<span class="fc" id="L40">        String seconds = String.valueOf(intPart);</span>
+<span class="fc" id="L41">        return String.format(Constants.DMS_FORMAT, Math.abs(Integer.parseInt(degrees)), minutes,</span>
+                seconds);
+    }
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.7.9.201702052155</span></div></body></html>
