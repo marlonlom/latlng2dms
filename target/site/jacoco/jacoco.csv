@@ -1,6 +1,0 @@
-GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
-latlng2dms,com.github.marlonlom.helpers.coordinates,DecimalToDms,3,68,0,4,1,16,1,3,1,1
-latlng2dms,com.github.marlonlom.helpers.coordinates,LatsLngs.Builder,0,57,0,2,0,17,0,7,0,6
-latlng2dms,com.github.marlonlom.helpers.coordinates,LatsLngs.Exception,0,17,0,0,0,7,0,3,0,3
-latlng2dms,com.github.marlonlom.helpers.coordinates,LatsLngs,3,214,0,20,2,35,1,17,1,7
-latlng2dms,com.github.marlonlom.helpers.coordinates,Constants,3,5,0,0,1,1,1,1,1,1
