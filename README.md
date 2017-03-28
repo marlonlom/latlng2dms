@@ -55,7 +55,7 @@ If you like this library, please tell others about it :thumbsup::thumbsup:
 <a href="https://plus.google.com/share?url=https://github.com/marlonlom/latlng2dms" target="_blank" title="share to G+" style="width:100%"><img src="https://github.com/marlonlom/staticmaps_builder/blob/master/design/googleplus_icon.png" target="_blank"  title="Share on Google+" width="35" height=35 />
 <a href="https://www.facebook.com/sharer/sharer.php?u=https://github.com/marlonlom/latlng2dms" target="_blank" title="share to facebook" style="width:100%"><img src="https://github.com/marlonlom/staticmaps_builder/blob/master/design/facebook_icon.png" title="Share on Facebook" width="35" height=35 />
 
- - Follow me on **Twitter**: [**@Marlonlom**](https://twitter.com/marlonlom)
+ - []()Follow me on **Twitter**: [**@Marlonlom**](https://twitter.com/marlonlom)
  - Contact me on **LinkedIn**: [**Marlonlom**](https://co.linkedin.com/in/marlonlom)
 
 
