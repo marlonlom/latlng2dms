@@ -1,4 +1,4 @@
-# latlng2dms - LatLong to DMS representation
+# latlng2dms - Latitude/Longitude to DMS representation
 
 [![GitHub issues](https://img.shields.io/github/issues/marlonlom/latlng2dms.svg?style=flat-square)](https://github.com/marlonlom/latlng2dms/issues)
 ![Github Releases](https://img.shields.io/github/downloads/marlonlom/latlng2dms/latest/total.svg?style=flat-square)
