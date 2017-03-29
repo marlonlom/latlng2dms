@@ -1,6 +1,7 @@
 # latlng2dms - LatLong to DMS representation
 
-[![Build Status](https://travis-ci.org/marlonlom/latlng2dms.svg?branch=master)](https://travis-ci.org/marlonlom/latlng2dms)
+[![GitHub issues](https://img.shields.io/github/issues/marlonlom/latlng2dms.svg?style=flat-square)](https://github.com/marlonlom/latlng2dms/issues)
+![Github Releases](https://img.shields.io/github/downloads/marlonlom/latlng2dms/latest/total.svg?style=flat-square)
 [![Bintray](https://img.shields.io/bintray/v/asciidoctor/maven/asciidoctorj.svg?style=flat-square)](https://github.com/marlonlom/latlng2dms)
 
 Some utilities for converting latitude/longitudes to degrees/minutes/seconds format
