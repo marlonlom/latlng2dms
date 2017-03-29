@@ -4,6 +4,8 @@
 ![Github Releases](https://img.shields.io/github/downloads/marlonlom/latlng2dms/latest/total.svg?style=flat-square)
 [![Bintray](https://img.shields.io/bintray/v/marlonlom/latlng2dms/latlng2dms.svg?style=flat-square)](https://github.com/marlonlom/latlng2dms)
 [![Build Status](https://travis-ci.org/marlonlom/latlng2dms.svg?branch=master&style=flat-square)](https://travis-ci.org/marlonlom/latlng2dms)
+[![Download](https://api.bintray.com/packages/marlonlom/latlng2dms/latlng2dms/images/download.svg) ](https://bintray.com/marlonlom/latlng2dms/latlng2dms/_latestVersion)
+
 
 Some utilities for converting latitude/longitudes to degrees/minutes/seconds format
 
